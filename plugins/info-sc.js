@@ -12,7 +12,7 @@ let esce = `
 Hai ${ye} Lagi Nyari Sc Ya? 
 
 Via Github:
-https://youtu.be/AXPzjQ5jxx8
+https://github.com/VenBotz/VenBotzv2
 Via MediaFire:
 Owner Males Up Ke Mediafire
 
@@ -20,7 +20,7 @@ _*Jangan Lupa Di Kasih Star*_`
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
 }
 handler.help = ['sc', 'sourcecode']
-handler.tags = ['isuavwvhw']
+handler.tags = ['info']
 handler.command = /^(sjisisb|isususy)$/i
 
 module.exports = handler
