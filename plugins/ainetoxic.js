@@ -11,7 +11,7 @@ conn.sendFile(m.chat, gaboleh, '', '', m, true)
 // await conn.sendMessage(m.chat, { audio: { url: helloaine }, mimetype: 'audio/mp4'}, m)
 }
 
-handler.customPrefix = /^(kontol|memek|jembut|jancok|ngentod)$/i
+handler.customPrefix = /^(kontol|memek|jembut|anj|anjg|Anjing Lu|anj lu|bangsat lu|bngst||mmk|kntl|anak anjg|babi|bab1|Babi Lu|Ngontol|asw|Asw lu|Ashu|Ashuu|ngtd|ngen|ngen***|jncok|Kont|Kon|Tol|Bngst|Anak Babi|Setan|Stn|ezy|easy|esyy|ezzz|esyy|jancok|ngentod)$/i
 handler.command = new RegExp
 
 handler.limit = false
