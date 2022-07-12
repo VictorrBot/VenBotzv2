@@ -39,6 +39,8 @@ const defaultMenu = {
 ⫹⫺ Uptime: *%uptime (%muptime)*
 ⫹⫺ Database: %rtotalreg dari %totalreg
 ⫹⫺ Ram : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+⫹⫺ Registered : %rtotalreg Users
+⫹⫺ Total GC : %totalgc Gc
 %readmore`.trimStart(), 
   header: '╭═══[ %category ]════···',
   body: '┢⎔ %cmd %islimit %isPremium',
